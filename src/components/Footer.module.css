@@ -1,0 +1,6 @@
+.footer {
+    grid-area: footer;
+    background-color: aquamarine;
+    line-height: 60px;
+    text-align: center;
+}

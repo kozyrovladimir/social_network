@@ -1,15 +1,16 @@
 import React from 'react';
+import styles from './Profile.module.css';
 
 function Profile () {
     return (
-        <div className="main-content">
-            <div className="head-image-container">
+        <div className={styles.main_content}>
+            <div className={styles.head_img_container}>
             </div>
-            <div className="profile">
-                <div className="profile-img">
+            <div className={styles.profile}>
+                <div className={styles.profile_img}>
                     <img src="cat.jpg" alt="cat"/>
                 </div>
-                <div className="profile-info">
+                <div className={styles.profile_info}>
                     <h2>vladimir</h2>
                     <p>Age: 26</p>
                     <p>Hobby: computer games</p>

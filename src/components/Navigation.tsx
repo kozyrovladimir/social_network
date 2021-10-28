@@ -1,19 +1,20 @@
 import React from 'react';
+import styles from './Navigation.module.css';
 
 function Navigation () {
     return (
-        <nav className="nav">
+        <nav className={styles.nav}>
             <div>
-                <a href="">Profile</a>
+                <a href="#">Profile</a>
             </div>
             <div>
-                <a href="">Messages</a>
+                <a href="#">Messages</a>
             </div>
             <div>
-                <a href="">News</a>
+                <a href="#">News</a>
             </div>
             <div>
-                <a href="">Music</a>
+                <a href="#">Music</a>
             </div>
         </nav>
     )

@@ -1,0 +1,14 @@
+.nav {
+    grid-area: navigation;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav a {
+    font-size: 20px;
+    color: crimson;
+    text-decoration: none;
+}
