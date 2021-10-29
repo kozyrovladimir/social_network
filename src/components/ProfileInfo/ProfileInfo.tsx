@@ -1,11 +1,8 @@
 import React from 'react';
-import styles from './Profile.module.css';
+import styles from './ProfileInfo.module.css';
 
-function Profile () {
+const ProfileInfo = () => {
     return (
-        <div className={styles.main_content}>
-            <div className={styles.head_img_container}>
-            </div>
             <div className={styles.profile}>
                 <div className={styles.profile_img}>
                     <img src="cat.jpg" alt="cat"/>
@@ -17,8 +14,7 @@ function Profile () {
                     <p>Working: web-developer</p>
                 </div>
             </div>
-        </div>
-    )
-}
+    );
+};
 
-export default Profile;
+export default ProfileInfo;
